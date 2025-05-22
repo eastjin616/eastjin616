@@ -1,5 +1,5 @@
 ## Hi this is jin's github 👋
-![header](https://capsule-render.vercel.app/api?type=waving)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi%20this%20is%20jin's%20github%F0%9F%A4%97)
 
 <!--
 **eastjin616/eastjin616** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
