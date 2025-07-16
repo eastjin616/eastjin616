@@ -33,6 +33,9 @@
   <img src="https://img.shields.io/badge/SQL Developer-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
 
+  ## 🔗 Links
+  [📘 Notion](https://www.notion.so/MY-BOARD-155457fc0c608019993ad81e4140c4ea)  
+  [📝 Tistory](https://djseo98.tistory.com/)
 
 
   <br/>
