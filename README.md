@@ -26,6 +26,7 @@
   ### 🖥️ Backend
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=OpenJDK&logoColor=white"/>
   <img src="https://img.shields.io/badge/JSP-007396?style=flat-square&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
   
   ### ⚙️ Framework
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
