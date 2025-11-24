@@ -39,7 +39,7 @@
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
 
   ## 🔗 Links
-  [📘 Notion](https://www.notion.so/2b3457fc0c6080c1b6dbd884aa38b676) 
+  [📘 Notion](https://www.notion.so/2b5457fc0c6080fc8e5be8d328065563) 
 
   <br/>
   <br/>
