@@ -1,21 +1,25 @@
- <div class="header">
-      <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=F5C0CA&text=YeonJin's%20GitHub%20&height=150&fontSize=60&descAlignY=75&descAlign=60" alt="YeonJin's GitHub">
-    </div>
-<div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me 🧑‍💻 </h2>
-    <div align= "center"> 
-         <a href=[노 션 아 이 디](https://www.notion.so/MY-BOARD-155457fc0c608019993ad81e4140c4ea)> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white&link= 메 일 주 소"> </a>
-         <a href=mailto:djseo9812@gmail.com> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:메 일 주 소"> </a>
-          </div><br>
-    <div align= "center">  </div> 
-    <h2 align="center">📧 Email 📧</h2>
-<p align="center">
-  <Strong> djseo9812@naver.com </Strong>
-</p><br>
-<div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> ✨ Tech Stack ✨ </h2>
-    <div style="margin: 0 auto; text-align: center;" align= "center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-        ### 💻 Frontend
+매주 수요일 21:00 온라인
+다음 주 : Github 소스 figma 기획서
+	    - 뭘 할지 정하기
+
+poc 
+
+[header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi%20this%20is%20jin's%20github%F0%9F%A4%97)
+
+
+<div>
+  <!--Body-->
+  
+  ## 👀 About Me
+  #### :raising_hand: I am a web server Engineer from South Korea.<br/>
+  #### 🔥 I aim to become a **Full-Stack Cloud Developer**.<br/>  
+  <br/>
+  <br/>
+  
+  ## 🧱 Tech Stack
+
+
+  ### 💻 Frontend
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
   <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
@@ -39,11 +43,33 @@
   <img src="https://img.shields.io/badge/STS-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL Developer-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
-     </div>
-    </div><br>
-<div align= "center">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📋 Stat 📋 </h2>
-    
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=깃 허 브 아 이 디&show_icons=true&theme=radical)    
 
-<br>
+  ## 🔗 Links
+  [📘 Notion](https://www.notion.so/2b5457fc0c6080fc8e5be8d328065563) 
+
+  <br/>
+  <br/>
+  
+  ## 🤔 Github Stats
+  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=eastjin616)](https://github.com/anuraghazra/github-readme-stats)
+  <br/>
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eastjin616)](https://github.com/anuraghazra/github-readme-stats)
+  
+</div>
+
+
+
+<!--
+**eastjin616/eastjin616** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: …
+- 😄 Pronouns: …
+- ⚡ Fun fact: …
+—>
