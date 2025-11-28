@@ -1,5 +1,8 @@
-<div align="center">
+<!-- <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=0056FF&text=Jin's%20GitHub&height=150&fontSize=60" />
+</div> -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&fontColor=white&text=Jin's%20GitHub&height=220&fontSize=60" />
 </div>
 
 ---
@@ -18,7 +21,7 @@
 
 <div align="center">
   <h2>📧 Email</h2>
-  <strong>djseo9812@gmail.com</strong><br/>
+  <!-- <strong>djseo9812@gmail.com</strong><br/> -->
   <strong>djseo9812@naver.com</strong>
 </div>
 
