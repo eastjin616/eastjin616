@@ -1,9 +1,3 @@
-매주 수요일 21:00 온라인
-다음 주 : Github 소스 figma 기획서
-	    - 뭘 할지 정하기
-
-poc 
-
 [header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hi%20this%20is%20jin's%20github%F0%9F%A4%97)
 
 
