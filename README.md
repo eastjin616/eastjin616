@@ -64,9 +64,9 @@
 <div align="center">
   <h2>📊 GitHub Stats 📊</h2>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=eastjin616&show_icons=true&theme=radical" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=eastjin616&show_icons=true&theme=radical" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eastjin616&layout=compact&theme=radical" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=eastjin616&layout=compact&theme=radical" />
 </div>
 
 ---
