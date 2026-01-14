@@ -12,18 +12,18 @@
   <a href="https://www.notion.so/MY-BOARD-155457fc0c608019993ad81e4140c4ea">
     <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
   </a>
-  <a href="mailto:djseo9812@gmail.com">
+  <a href="mailto:djseo9812@naver.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white">
   </a>
 </div>
 
 <br/>
 
-<div align="center">
-  <h2>📧 Email</h2>
+<!-- <div align="center"> -->
+  <!-- <h2>📧 Email</h2> -->
   <!-- <strong>djseo9812@gmail.com</strong><br/> -->
-  <strong>djseo9812@naver.com</strong>
-</div>
+  <!-- <strong>djseo9812@naver.com</strong> -->
+<!-- </div> -->
 
 ---
 
