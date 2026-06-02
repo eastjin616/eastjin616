@@ -70,17 +70,6 @@
   <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=eastjin616&layout=compact&theme=transparent&langs_count=8&title_color=2F80ED" />
 </div>
 
-<br />
-
-<div align="center">
-  <h2>AI Usage Embed</h2>
-  <a href="https://tokscale.ai/u/Yeachan-Heo">
-    <img alt="Tokscale Stats" src="https://tokscale.ai/api/embed/Yeachan-Heo/svg?sort=cost&compact=1" />
-  </a>
-</div>
-
-<br />
-
 <div align="center">
   <h2>Pac-Man Contributions</h2>
   <picture>
