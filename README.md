@@ -2,14 +2,6 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:1E40AF,100:2F80ED&height=220&section=header&text=Hi%20there%2C%20I'm%20Yeachan%20Heo%20%F0%9F%91%8B&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=The%20Boulder%20Never%20Stops&descAlignY=60&descSize=18" />
 </div>
 
-<div align="center">
-  <h3><code>The Boulder Never Stops</code></h3>
-</div>
-
-<div align="center">
-  <p>Working with Java, Spring Boot, React, TypeScript, and Go.</p>
-</div>
-
 <br />
 
 <div align="center">
