@@ -84,9 +84,9 @@
 <div align="center">
   <h2>Pac-Man Contributions</h2>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph.svg" />
-    <img width="95%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph.svg?v=2" />
+    <img width="95%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph.svg?v=2" />
   </picture>
 </div>
 
