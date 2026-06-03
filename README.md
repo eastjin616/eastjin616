@@ -23,6 +23,13 @@
 <br />
 
 <div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" />
+</div>
+
+<br />
+
+<!--
+<div align="center">
   <h2>Tech Stack</h2>
 
   <h3>Frontend</h3>
@@ -50,13 +57,8 @@
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-
-  <h3>Best Friends</h3>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" />
-  <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
 </div>
+-->
 
 <br />
 
@@ -73,8 +75,4 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph.svg?v=2" />
     <img width="95%" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/eastjin616/eastjin616/output/pacman-contribution-graph.svg?v=2" />
   </picture>
-</div>
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E0F2FE,45:93C5FD,100:3B82F6&height=120&section=footer" />
 </div>
