@@ -6,11 +6,17 @@
 
 <div align="center">
   <h2>Contact Me</h2>
-  <a href="https://www.notion.so/MY-BOARD-155457fc0c608019993ad81e4140c4ea">
-    <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-  </a>
   <a href="mailto:djseo9812@naver.com">
     <img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" />
+  </a>
+  <a href="https://x.com/seodongjin75966">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/jin.n616/?__pwa=1">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://www.threads.net/@jin.n616">
+    <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" />
   </a>
 </div>
 
