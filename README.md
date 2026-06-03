@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E0F2FE,45:93C5FD,100:3B82F6&height=220&section=header&text=Hi%20there%2C%20I'm%20Jin%20%F0%9F%91%8B&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
+  <img width="100%" src="https://readme-typing-svg.demolab.com/?lines=Hi+there%2C+I'm+Jin&center=true&vCenter=true&width=800&height=180&duration=2800&pause=1000&color=FFFFFF&size=52" />
 </div>
 
 <br />
@@ -46,12 +46,10 @@
   <img src="https://img.shields.io/badge/Cobra-00ADD8?style=flat-square&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Bubble%20Tea-F25D94?style=flat-square&logo=go&logoColor=white" />
 
-  <h3>Tools and Database</h3>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <h3>Database</h3>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL%20Developer-F80000?style=flat-square&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/STS-6DB33F?style=flat-square&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=gnu&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 
   <h3>Best Friends</h3>
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" />
