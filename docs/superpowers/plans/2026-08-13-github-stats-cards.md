@@ -166,7 +166,7 @@ Expected: one commit containing only `.github/workflows/stats.yml`.
 Run:
 
 ```bash
-git push origin main
+git push origin HEAD:main
 ```
 
 Expected: the remote `main` branch advances successfully.
@@ -298,7 +298,7 @@ Expected: one commit containing only `README.md`.
 Run:
 
 ```bash
-git push origin main
+git push origin HEAD:main
 ```
 
 Expected: remote `main` advances successfully.
