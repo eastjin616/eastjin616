@@ -68,8 +68,16 @@
 
 <div align="center">
   <h2>GitHub Stats</h2>
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=eastjin616&show_icons=true&theme=transparent&title_color=2F80ED&icon_color=2F80ED" />
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=eastjin616&layout=compact&theme=transparent&langs_count=8&title_color=2F80ED" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./profile/stats-light.svg" />
+    <img height="170" alt="Jin's GitHub stats" src="./profile/stats-light.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./profile/top-langs-light.svg" />
+    <img height="170" alt="Jin's most used languages" src="./profile/top-langs-light.svg" />
+  </picture>
 </div>
 
 <div align="center">
