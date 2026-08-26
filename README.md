@@ -32,6 +32,15 @@
 
 <br />
 
+<div align="center">
+  <h2>Codex Usage</h2>
+  <a href="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/api/share/eastjin616">
+    <img width="50%" src="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/u/eastjin616/card.png" alt="Codex usage profile" />
+  </a>
+</div>
+
+<br />
+
 <!--
 <div align="center">
   <h2>Tech Stack</h2>
