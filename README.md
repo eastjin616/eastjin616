@@ -12,7 +12,12 @@ A Developer from South Korea
 
 ### Languages & Tools
 
-<img src="https://skillicons.dev/icons?i=git,js,ts,react,java,python,go,mysql&perline=8" height="40" alt="Git, JavaScript, TypeScript, React, Java, Python, Go, MySQL" />
+<p>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=git,js,ts,react,java,python,go,postgres,oracle&perline=9" height="40" alt="Git, JavaScript, TypeScript, React, Java, Python, Go, PostgreSQL, Oracle" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes&perline=2" height="40" alt="Docker, Kubernetes" />
+</p>
 
 <!-- BLOG-POSTS:START -->
 <h3>📕 Latest Blog Posts</h3>
@@ -24,9 +29,6 @@ A Developer from South Korea
     <li><a href="https://djseo98.tistory.com/13">Docker 실습 해보기</a></li>
 </ul>
 <!-- BLOG-POSTS:END -->
-
-
-
 
 <div>
   <h3>GitHub Stats</h3>
@@ -48,5 +50,3 @@ A Developer from South Korea
     <img width="480" src="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/u/eastjin616/card.png" alt="Codex usage profile" />
   </a>
 </div>
-
-
