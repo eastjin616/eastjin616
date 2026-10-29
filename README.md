@@ -22,11 +22,11 @@ A Developer from South Korea
 <!-- BLOG-POSTS:START -->
 <h3>📕 Latest Blog Posts</h3>
 <ul>
+    <li><a href="https://djseo98.tistory.com/16">Docker Compose 2</a></li>
     <li><a href="https://djseo98.tistory.com/15">Docker Compose 1</a></li>
     <li><a href="https://djseo98.tistory.com/14">Docker Volumes</a></li>
     <li><a href="https://djseo98.tistory.com/13">Docker 실습 해보기</a></li>
     <li><a href="https://djseo98.tistory.com/11">docker CLI명령어 정리</a></li>
-    <li><a href="https://djseo98.tistory.com/10">docker란?</a></li>
 </ul>
 <!-- BLOG-POSTS:END -->
 
