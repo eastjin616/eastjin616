@@ -16,10 +16,11 @@ class BlogUpdateTests(unittest.TestCase):
             ("글 5", "https://djseo98.tistory.com/5"),
         ])
 
-    def test_only_backend_and_infra_posts_count_towards_five(self):
+    def test_only_it_category_posts_count_towards_five(self):
         xml = b'''<rss><channel>
           <item><category>ilsang</category><title>Diary</title><link>https://djseo98.tistory.com/99</link></item>
           <item><title>Uncategorized</title><link>https://djseo98.tistory.com/98</link></item>
+          <item><category>Frontend/React</category><title>React</title><link>https://djseo98.tistory.com/8</link></item>
           <item><category>Infra/docker</category><title>Docker 1</title><link>https://djseo98.tistory.com/7</link></item>
           <item><category>Backend/Spring</category><title>Spring</title><link>https://djseo98.tistory.com/6</link></item>
           <item><category>Backend</category><title>Backend</title><link>https://djseo98.tistory.com/5</link></item>
@@ -28,11 +29,11 @@ class BlogUpdateTests(unittest.TestCase):
           <item><category>Backend</category><title>Older</title><link>https://djseo98.tistory.com/2</link></item>
         </channel></rss>'''
         self.assertEqual(parse_posts(xml), [
+            ("React", "https://djseo98.tistory.com/8"),
             ("Docker 1", "https://djseo98.tistory.com/7"),
             ("Spring", "https://djseo98.tistory.com/6"),
             ("Backend", "https://djseo98.tistory.com/5"),
             ("Infra", "https://djseo98.tistory.com/4"),
-            ("Docker 2", "https://djseo98.tistory.com/3"),
         ])
 
     def test_insertion_preserves_profile_and_is_idempotent(self):

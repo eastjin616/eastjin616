@@ -7,6 +7,7 @@ from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 FEED_URL = "https://djseo98.tistory.com/rss"
+IT_CATEGORIES = {"Backend", "Frontend", "Infra"}
 START = "<!-- BLOG-POSTS:START -->"
 END = "<!-- BLOG-POSTS:END -->"
 
@@ -20,7 +21,7 @@ def parse_posts(xml: bytes) -> list[tuple[str, str]]:
     seen = set()
     for item in items:
         category = (item.findtext("category") or "").split("/", 1)[0].strip()
-        if category not in {"Backend", "Infra"}:
+        if category not in IT_CATEGORIES:
             continue
         title = " ".join((item.findtext("title") or "").split())
         link = urlsplit((item.findtext("link") or "").strip())
