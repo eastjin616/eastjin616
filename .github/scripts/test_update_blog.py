@@ -1,5 +1,5 @@
 import unittest
-from update_blog import parse_posts, update_readme
+from update_blog import parse_posts, parse_topic, update_readme
 
 
 class BlogUpdateTests(unittest.TestCase):
@@ -8,7 +8,7 @@ class BlogUpdateTests(unittest.TestCase):
             f"<item><category>Backend</category><title>글 {i}</title><link>http://djseo98.tistory.com/{i}</link></item>"
             for i in range(1, 8)
         ) + "</channel></rss>"
-        self.assertEqual(parse_posts(xml.encode()), [
+        self.assertEqual(parse_posts(xml.encode(), lambda url: "IT 인터넷"), [
             ("글 1", "https://djseo98.tistory.com/1"),
             ("글 2", "https://djseo98.tistory.com/2"),
             ("글 3", "https://djseo98.tistory.com/3"),
@@ -16,25 +16,37 @@ class BlogUpdateTests(unittest.TestCase):
             ("글 5", "https://djseo98.tistory.com/5"),
         ])
 
-    def test_only_it_category_posts_count_towards_five(self):
+    def test_only_it_topic_posts_count_towards_five(self):
         xml = b'''<rss><channel>
           <item><category>ilsang</category><title>Diary</title><link>https://djseo98.tistory.com/99</link></item>
-          <item><title>Uncategorized</title><link>https://djseo98.tistory.com/98</link></item>
+          <item><title>Docker Compose 2</title><link>https://djseo98.tistory.com/16</link></item>
           <item><category>Frontend/React</category><title>React</title><link>https://djseo98.tistory.com/8</link></item>
           <item><category>Infra/docker</category><title>Docker 1</title><link>https://djseo98.tistory.com/7</link></item>
           <item><category>Backend/Spring</category><title>Spring</title><link>https://djseo98.tistory.com/6</link></item>
-          <item><category>Backend</category><title>Backend</title><link>https://djseo98.tistory.com/5</link></item>
+          <item><category>Backend</category><title>Not IT</title><link>https://djseo98.tistory.com/5</link></item>
           <item><category>Infra</category><title>Infra</title><link>https://djseo98.tistory.com/4</link></item>
           <item><category>Infra/docker</category><title>Docker 2</title><link>https://djseo98.tistory.com/3</link></item>
           <item><category>Backend</category><title>Older</title><link>https://djseo98.tistory.com/2</link></item>
         </channel></rss>'''
-        self.assertEqual(parse_posts(xml), [
+        checked = []
+        def topic_for_url(url):
+            checked.append(url)
+            return "일상" if url.endswith(("/99", "/5")) else "IT 인터넷"
+
+        self.assertEqual(parse_posts(xml, topic_for_url), [
+            ("Docker Compose 2", "https://djseo98.tistory.com/16"),
             ("React", "https://djseo98.tistory.com/8"),
             ("Docker 1", "https://djseo98.tistory.com/7"),
             ("Spring", "https://djseo98.tistory.com/6"),
-            ("Backend", "https://djseo98.tistory.com/5"),
             ("Infra", "https://djseo98.tistory.com/4"),
         ])
+        self.assertNotIn("https://djseo98.tistory.com/3", checked)
+
+    def test_topic_is_read_from_public_post_metadata(self):
+        self.assertEqual(parse_topic(b'<meta property="article:section" content="\'IT \xec\x9d\xb8\xed\x84\xb0\xeb\x84\xb7\'">'), "IT 인터넷")
+        self.assertEqual(parse_topic('<meta content="일상다반사" property="article:section">'.encode()), "일상다반사")
+        with self.assertRaises(ValueError):
+            parse_topic(b'<html><head></head></html>')
 
     def test_insertion_preserves_profile_and_is_idempotent(self):
         original = '<h1>Jin</h1>\n\n<div align="center">\n  <h2>GitHub Stats</h2>\n</div>\n'
@@ -65,7 +77,7 @@ class BlogUpdateTests(unittest.TestCase):
             b"<rss><channel><item><category>Infra</category><title>Bad</title><link>https://other.example/1</link></item></channel></rss>",
         ]:
             with self.subTest(xml=xml), self.assertRaises(ValueError):
-                parse_posts(xml)
+                parse_posts(xml, lambda url: "IT 인터넷")
 
     def test_broken_markers_are_rejected(self):
         for text in [
