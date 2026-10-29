@@ -25,8 +25,8 @@ A Developer from South Korea
 </ul>
 <!-- BLOG-POSTS:END -->
 
-<details>
-<summary>GitHub Stats &amp; Codex Usage</summary>
+
+
 
 <div>
   <h3>GitHub Stats</h3>
@@ -49,4 +49,4 @@ A Developer from South Korea
   </a>
 </div>
 
-</details>
+
