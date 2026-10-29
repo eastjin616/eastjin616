@@ -5,7 +5,7 @@ from update_blog import parse_posts, update_readme
 class BlogUpdateTests(unittest.TestCase):
     def test_feed_limits_to_five_and_normalizes_links(self):
         xml = "<rss><channel>" + "".join(
-            f"<item><title>글 {i}</title><link>http://djseo98.tistory.com/{i}</link></item>"
+            f"<item><category>Backend</category><title>글 {i}</title><link>http://djseo98.tistory.com/{i}</link></item>"
             for i in range(1, 8)
         ) + "</channel></rss>"
         self.assertEqual(parse_posts(xml.encode()), [
@@ -14,6 +14,25 @@ class BlogUpdateTests(unittest.TestCase):
             ("글 3", "https://djseo98.tistory.com/3"),
             ("글 4", "https://djseo98.tistory.com/4"),
             ("글 5", "https://djseo98.tistory.com/5"),
+        ])
+
+    def test_only_backend_and_infra_posts_count_towards_five(self):
+        xml = b'''<rss><channel>
+          <item><category>ilsang</category><title>Diary</title><link>https://djseo98.tistory.com/99</link></item>
+          <item><title>Uncategorized</title><link>https://djseo98.tistory.com/98</link></item>
+          <item><category>Infra/docker</category><title>Docker 1</title><link>https://djseo98.tistory.com/7</link></item>
+          <item><category>Backend/Spring</category><title>Spring</title><link>https://djseo98.tistory.com/6</link></item>
+          <item><category>Backend</category><title>Backend</title><link>https://djseo98.tistory.com/5</link></item>
+          <item><category>Infra</category><title>Infra</title><link>https://djseo98.tistory.com/4</link></item>
+          <item><category>Infra/docker</category><title>Docker 2</title><link>https://djseo98.tistory.com/3</link></item>
+          <item><category>Backend</category><title>Older</title><link>https://djseo98.tistory.com/2</link></item>
+        </channel></rss>'''
+        self.assertEqual(parse_posts(xml), [
+            ("Docker 1", "https://djseo98.tistory.com/7"),
+            ("Spring", "https://djseo98.tistory.com/6"),
+            ("Backend", "https://djseo98.tistory.com/5"),
+            ("Infra", "https://djseo98.tistory.com/4"),
+            ("Docker 2", "https://djseo98.tistory.com/3"),
         ])
 
     def test_insertion_preserves_profile_and_is_idempotent(self):
@@ -41,8 +60,8 @@ class BlogUpdateTests(unittest.TestCase):
         for xml in [
             b"<rss><channel/></rss>",
             b"not xml",
-            b"<rss><channel><item><title>Bad</title><link>javascript:alert(1)</link></item></channel></rss>",
-            b"<rss><channel><item><title>Bad</title><link>https://other.example/1</link></item></channel></rss>",
+            b"<rss><channel><item><category>Infra</category><title>Bad</title><link>javascript:alert(1)</link></item></channel></rss>",
+            b"<rss><channel><item><category>Infra</category><title>Bad</title><link>https://other.example/1</link></item></channel></rss>",
         ]:
             with self.subTest(xml=xml), self.assertRaises(ValueError):
                 parse_posts(xml)

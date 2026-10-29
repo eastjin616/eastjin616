@@ -19,6 +19,9 @@ def parse_posts(xml: bytes) -> list[tuple[str, str]]:
     posts = []
     seen = set()
     for item in items:
+        category = (item.findtext("category") or "").split("/", 1)[0].strip()
+        if category not in {"Backend", "Infra"}:
+            continue
         title = " ".join((item.findtext("title") or "").split())
         link = urlsplit((item.findtext("link") or "").strip())
         if not title or link.scheme not in ("http", "https") or link.netloc != "djseo98.tistory.com":
