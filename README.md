@@ -1,88 +1,18 @@
-<h1 align="center">Hi there, I'm Jin 👋</h1>
+## Hi! I'm Jin 👋
 
-<br />
+A Developer from South Korea
 
-<div align="center">
-  <h2>Contact Me</h2>
-  <a href="mailto:djseo9812@naver.com">
-    <img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" />
-  </a>
-  <a href="https://x.com/seodongjin75966">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/jin.n616/?__pwa=1">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://www.threads.net/@jin.n616">
-    <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" />
-  </a>
-</div>
+<p>
+  <a href="mailto:djseo9812@naver.com"><img height="28" src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email" /></a>
+  <a href="https://djseo98.tistory.com/"><img height="28" src="https://img.shields.io/badge/Tistory-FF5544?style=for-the-badge&logo=tistory&logoColor=white" alt="Tistory" /></a>
+  <a href="https://www.instagram.com/jin.n616/?__pwa=1"><img height="28" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://x.com/seodongjin75966"><img height="28" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.threads.net/@jin.n616"><img height="28" src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads" /></a>
+</p>
 
-<br />
+### Languages & Tools
 
-<div align="center">
-  <h2>Best Friends</h2>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" />
-  <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-</div>
-
-<br />
-
-<!--
-<div align="center">
-  <h2>Tech Stack</h2>
-
-  <h3>Frontend</h3>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-
-  <h3>Backend</h3>
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/JSP-007396?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-
-  <h3>Frameworks and CLI</h3>
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cobra-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bubble%20Tea-F25D94?style=flat-square&logo=go&logoColor=white" />
-
-  <h3>Database</h3>
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-</div>
--->
-
-<div align="center">
-  <h2>GitHub Stats</h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./profile/stats-light.svg" />
-    <img height="170" alt="Jin's GitHub stats" src="./profile/stats-light.svg" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./profile/top-langs-light.svg" />
-    <img height="170" alt="Jin's most used languages" src="./profile/top-langs-light.svg" />
-  </picture>
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" />
-</div>
-
-<br />
+<img src="https://skillicons.dev/icons?i=git,js,ts,react,java,python,go,mysql&perline=8" height="40" alt="Git, JavaScript, TypeScript, React, Java, Python, Go, MySQL" />
 
 <!-- BLOG-POSTS:START -->
 <h3>📕 Latest Blog Posts</h3>
@@ -95,11 +25,28 @@
 </ul>
 <!-- BLOG-POSTS:END -->
 
-<br />
+<details>
+<summary>GitHub Stats &amp; Codex Usage</summary>
 
-<div align="center">
-  <h2>Codex Usage</h2>
+<div>
+  <h3>GitHub Stats</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./profile/stats-light.svg" />
+    <img height="170" alt="Jin's GitHub stats" src="./profile/stats-light.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./profile/top-langs-light.svg" />
+    <img height="170" alt="Jin's most used languages" src="./profile/top-langs-light.svg" />
+  </picture>
+</div>
+
+<div>
+  <h3>Codex Usage</h3>
   <a href="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/api/share/eastjin616">
-    <img width="60%" src="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/u/eastjin616/card.png" alt="Codex usage profile" />
+    <img width="480" src="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/u/eastjin616/card.png" alt="Codex usage profile" />
   </a>
 </div>
+
+</details>
