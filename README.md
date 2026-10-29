@@ -1,6 +1,4 @@
-<div align="center">
-  <img width="100%" src="https://readme-typing-svg.demolab.com/?lines=Hi+there%2C+I'm+Jin&center=true&vCenter=true&width=800&height=180&duration=2800&pause=1000&color=FFFFFF&size=52" />
-</div>
+<h1 align="center">Hi there, I'm Jin 👋</h1>
 
 <br />
 
@@ -31,13 +29,6 @@
 </div>
 
 <br />
-
-<div align="center">
-  <h2>Codex Usage</h2>
-  <a href="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/api/share/eastjin616">
-    <img width="60%" src="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/u/eastjin616/card.png" alt="Codex usage profile" />
-  </a>
-</div>
 
 <!--
 <div align="center">
@@ -71,21 +62,6 @@
 </div>
 -->
 
-<br />
-
-<!-- BLOG-POSTS:START -->
-<div align="center">
-  <h2>Latest Blog Posts</h2>
-  <p><a href="https://djseo98.tistory.com/17">언럭키 오토바이를 타고...</a></p>
-  <p><a href="https://djseo98.tistory.com/16">Docker Compose 2</a></p>
-  <p><a href="https://djseo98.tistory.com/15">Docker Compose 1</a></p>
-  <p><a href="https://djseo98.tistory.com/14">Docker Volumes</a></p>
-  <p><a href="https://djseo98.tistory.com/13">Docker 실습 해보기</a></p>
-</div>
-<!-- BLOG-POSTS:END -->
-
-<br />
-
 <div align="center">
   <h2>GitHub Stats</h2>
   <picture>
@@ -104,4 +80,26 @@
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" />
+</div>
+
+<br />
+
+<!-- BLOG-POSTS:START -->
+<h3>📕 Latest Blog Posts</h3>
+<ul>
+    <li><a href="https://djseo98.tistory.com/17">언럭키 오토바이를 타고...</a></li>
+    <li><a href="https://djseo98.tistory.com/16">Docker Compose 2</a></li>
+    <li><a href="https://djseo98.tistory.com/15">Docker Compose 1</a></li>
+    <li><a href="https://djseo98.tistory.com/14">Docker Volumes</a></li>
+    <li><a href="https://djseo98.tistory.com/13">Docker 실습 해보기</a></li>
+</ul>
+<!-- BLOG-POSTS:END -->
+
+<br />
+
+<div align="center">
+  <h2>Codex Usage</h2>
+  <a href="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/api/share/eastjin616">
+    <img width="60%" src="https://codex-usage-profile.meleeisdeveloping.chatgpt.site/u/eastjin616/card.png" alt="Codex usage profile" />
+  </a>
 </div>
