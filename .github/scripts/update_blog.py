@@ -38,12 +38,12 @@ def update_readme(readme: str, posts: list[tuple[str, str]]) -> str:
     if not posts:
         raise ValueError("Refusing to replace the post list with an empty list")
     entries = "\n".join(
-        f'  <p><a href="{escape(url, quote=True)}">{escape(title)}</a></p>'
+        f'    <li><a href="{escape(url, quote=True)}">{escape(title)}</a></li>'
         for title, url in posts
     )
     block = (
-        f'{START}\n<div align="center">\n  <h2>Latest Blog Posts</h2>\n'
-        f'{entries}\n</div>\n{END}'
+        f'{START}\n<h3>📕 Latest Blog Posts</h3>\n<ul>\n'
+        f'{entries}\n</ul>\n{END}'
     )
     if START in readme or END in readme:
         if readme.count(START) != 1 or readme.count(END) != 1:
