@@ -1,0 +1,62 @@
+import unittest
+from update_blog import parse_posts, update_readme
+
+
+class BlogUpdateTests(unittest.TestCase):
+    def test_feed_limits_to_five_and_normalizes_links(self):
+        xml = "<rss><channel>" + "".join(
+            f"<item><title>글 {i}</title><link>http://djseo98.tistory.com/{i}</link></item>"
+            for i in range(1, 8)
+        ) + "</channel></rss>"
+        self.assertEqual(parse_posts(xml.encode()), [
+            ("글 1", "https://djseo98.tistory.com/1"),
+            ("글 2", "https://djseo98.tistory.com/2"),
+            ("글 3", "https://djseo98.tistory.com/3"),
+            ("글 4", "https://djseo98.tistory.com/4"),
+            ("글 5", "https://djseo98.tistory.com/5"),
+        ])
+
+    def test_insertion_preserves_profile_and_is_idempotent(self):
+        original = '<h1>Jin</h1>\n\n<div align="center">\n  <h2>GitHub Stats</h2>\n</div>\n'
+        result = update_readme(original, [("Docker", "https://djseo98.tistory.com/1")])
+        self.assertTrue(result.startswith("<h1>Jin</h1>\n\n<!-- BLOG-POSTS:START -->"))
+        self.assertTrue(result.endswith('<div align="center">\n  <h2>GitHub Stats</h2>\n</div>\n'))
+        self.assertIn('<a href="https://djseo98.tistory.com/1">Docker</a>', result)
+        self.assertEqual(update_readme(result, [("Docker", "https://djseo98.tistory.com/1")]), result)
+
+    def test_changed_posts_replace_old_list(self):
+        before = "Header\n<!-- BLOG-POSTS:START -->\nold\n<!-- BLOG-POSTS:END -->\nFooter"
+        result = update_readme(before, [("새 글", "https://djseo98.tistory.com/9")])
+        self.assertNotIn("\nold\n", result)
+        self.assertEqual(result.count("BLOG-POSTS:START"), 1)
+        self.assertTrue(result.startswith("Header\n"))
+        self.assertTrue(result.endswith("\nFooter"))
+
+    def test_titles_are_escaped_as_text(self):
+        result = update_readme("Profile", [('Docker <script> & "volume"', "https://djseo98.tistory.com/1")])
+        self.assertIn('Docker &lt;script&gt; &amp; &quot;volume&quot;', result)
+        self.assertNotIn("<script>", result)
+
+    def test_empty_malformed_or_untrusted_feed_is_rejected(self):
+        for xml in [
+            b"<rss><channel/></rss>",
+            b"not xml",
+            b"<rss><channel><item><title>Bad</title><link>javascript:alert(1)</link></item></channel></rss>",
+            b"<rss><channel><item><title>Bad</title><link>https://other.example/1</link></item></channel></rss>",
+        ]:
+            with self.subTest(xml=xml), self.assertRaises(ValueError):
+                parse_posts(xml)
+
+    def test_broken_markers_are_rejected(self):
+        for text in [
+            "<!-- BLOG-POSTS:START -->missing end",
+            "<!-- BLOG-POSTS:END -->",
+            "<!-- BLOG-POSTS:END --><!-- BLOG-POSTS:START -->",
+            "<!-- BLOG-POSTS:START --><!-- BLOG-POSTS:START --><!-- BLOG-POSTS:END -->",
+        ]:
+            with self.subTest(text=text), self.assertRaises(ValueError):
+                update_readme(text, [("Docker", "https://djseo98.tistory.com/1")])
+
+
+if __name__ == "__main__":
+    unittest.main()
