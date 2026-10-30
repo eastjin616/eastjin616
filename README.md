@@ -20,7 +20,7 @@ A Developer from South Korea
 </p>
 
 <!-- BLOG-POSTS:START -->
-<h3>📕 Latest Blog Posts</h3>
+<h3>🛠️ Tech Notes</h3>
 <ul>
     <li><a href="https://djseo98.tistory.com/16">Docker Compose 2</a></li>
     <li><a href="https://djseo98.tistory.com/15">Docker Compose 1</a></li>
