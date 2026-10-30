@@ -76,7 +76,7 @@ def update_readme(readme: str, posts: list[tuple[str, str]]) -> str:
         for title, url in posts
     )
     block = (
-        f'{START}\n<h3>📕 Latest Blog Posts</h3>\n<ul>\n'
+        f'{START}\n<h3>🛠️ Tech Notes</h3>\n<ul>\n'
         f'{entries}\n</ul>\n{END}'
     )
     if START in readme or END in readme:
