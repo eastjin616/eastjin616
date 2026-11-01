@@ -3,7 +3,8 @@
 A Developer from South Korea
 
 <p>
-  <a href="mailto:djseo9812@naver.com"><img height="28" src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email" /></a>
+    <a href="https://blog.naver.com/djseo98"><img height="28" src="https://img.shields.io/badge/Naver%20Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Naver Blog" /></a>
+<a href="mailto:djseo9812@naver.com"><img height="28" src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email" /></a>
   <a href="https://djseo98.tistory.com/"><img height="28" src="https://img.shields.io/badge/Tistory-FF5544?style=for-the-badge&logo=tistory&logoColor=white" alt="Tistory" /></a>
   <a href="https://www.instagram.com/jin.n616/?__pwa=1"><img height="28" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://x.com/seodongjin75966"><img height="28" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
