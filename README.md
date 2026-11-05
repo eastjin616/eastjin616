@@ -23,11 +23,11 @@ A Developer from South Korea
 <!-- BLOG-POSTS:START -->
 <h3>🛠️ Tech Notes</h3>
 <ul>
+    <li><a href="https://djseo98.tistory.com/22">Redis란?</a></li>
     <li><a href="https://djseo98.tistory.com/21">Kubernetes 기본 구성</a></li>
     <li><a href="https://djseo98.tistory.com/20">VM vs Container</a></li>
     <li><a href="https://djseo98.tistory.com/19">kubernetes?</a></li>
     <li><a href="https://djseo98.tistory.com/18">pickle 피클 python</a></li>
-    <li><a href="https://djseo98.tistory.com/16">Docker Compose 2</a></li>
 </ul>
 <!-- BLOG-POSTS:END -->
 
