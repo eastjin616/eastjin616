@@ -14,7 +14,8 @@ A Developer from South Korea
 ### Languages & Tools
 
 <p>
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=git,js,ts,react,java,python,go,postgres,oracle&perline=9" height="40" alt="Git, JavaScript, TypeScript, React, Java, Python, Go, PostgreSQL, Oracle" />
+  <img src="https://skillicons.dev/icons?i=git,js,ts,react,java,python,go,postgres&perline=8" height="40" alt="Git, JavaScript, TypeScript, React, Java, Python, Go, PostgreSQL" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" height="28" alt="Oracle" />
 </p>
 <p>
   <img src="https://skillicons.dev/icons?i=docker,kubernetes&perline=2" height="40" alt="Docker, Kubernetes" />
