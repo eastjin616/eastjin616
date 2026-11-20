@@ -24,11 +24,11 @@ A Developer from South Korea
 <!-- BLOG-POSTS:START -->
 <h3>🛠️ Tech Notes</h3>
 <ul>
+    <li><a href="https://djseo98.tistory.com/25">워크플로우와 에이전트 (변천사)</a></li>
     <li><a href="https://djseo98.tistory.com/24">LLM이란?</a></li>
     <li><a href="https://djseo98.tistory.com/23">Data type</a></li>
     <li><a href="https://djseo98.tistory.com/22">Redis란?</a></li>
     <li><a href="https://djseo98.tistory.com/21">Kubernetes 기본 구성</a></li>
-    <li><a href="https://djseo98.tistory.com/20">VM vs Container</a></li>
 </ul>
 <!-- BLOG-POSTS:END -->
 
